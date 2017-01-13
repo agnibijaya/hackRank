@@ -63,7 +63,7 @@ public class Sudoku {
 	    int endcol = startcol + 2;
 
 	    for (int x = startrow; x <= endrow; x++)
-	     for (int y = startrow; y <= endcol; y++)
+	     for (int y = startcol; y <= endcol; y++)
 	      if (grid[x][y] == num)
 	       return false;
 
